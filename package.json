@@ -4,7 +4,7 @@
   "description": "이 프로젝트는 NodeJS 스택들을 알아보기 위한 튜토리얼 입니다.",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node server.js",
+    "start": "nodemon server.js --exec babel-node ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "garam",
