@@ -1,14 +1,14 @@
 import AppDispatcher from "../AppDispatcher"
-import {ActionTypes} from "../Constans"
+import {ActionTypes} from "../Constants"
 
 class ServerActions {
   receiveLinks(links){
-    console.log("2. In ServerActions");
+    console.log("2. In ServerActions",links);
     AppDispatcher.dispatch({
       actionType: ActionTypes.RECEIVE_LINKS,
       links
     });
   }
 }
-ServerActions = new ServerActions;
+ServerActions = new ServerActions();
 export default ServerActions;
