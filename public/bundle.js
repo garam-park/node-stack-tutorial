@@ -49,7 +49,7 @@
 
 	var Hello = React.createClass({
 	    render : function() {
-	      return React.createElement("h3", null, 'Hello React');
+	      return React.createElement("h3", null, 'Hello Webpack!!');
 	    }
 	})
 
